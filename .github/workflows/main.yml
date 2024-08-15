@@ -31,8 +31,8 @@ jobs:
     steps:
       - name: "Verificando versao do Node JS atual"
         run: node --version
-      - name: "Definição da versao 20.16.0 do Node JS"
 # https://github.com/marketplace/actions/setup-node-js-environment      
+      - name: "Definição da versao 20.16.0 do Node JS"
       - uses: actions/setup-node@v4
         with:
           node-version: '20.16.0'

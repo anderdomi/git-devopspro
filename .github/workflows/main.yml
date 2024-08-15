@@ -34,7 +34,7 @@ jobs:
         run: node --version
 # https://github.com/marketplace/actions/setup-node-js-environment      
       - name: "Definição da versao 20.16.0 do Node JS"
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4 #v4 declara que vai usar o setub do node v4 mais cente
         with:
           node-version: '20.16.0'
       - name: "Verificando versao do Node JS depois de instalado"

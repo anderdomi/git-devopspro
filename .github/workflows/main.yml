@@ -7,7 +7,7 @@ on:
     branches: ["main"] #delcare todas que precisar
   workflow_dispatch: #permite que execute manualmente.
 # Declare os jobs.
-job:
+jobs:
   worflow-devops2:
     name: "Workflow Devops2"
     runs-on: ubuntu-latest #declarando runner
@@ -25,11 +25,11 @@ job:
           variavel = "Hello devops2"
           print(variavel)
         shell: python
-jbob-2:
-  name: "Instalando ambiente NodeJS"
-  runs-on: ubuntu-latest
-  steps:
-    - name: "Verificando versao do Node JS atual"
-      run: node --version 
+  jbob-2:
+    name: "Instalando ambiente NodeJS"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Verificando versao do Node JS atual"
+        run: node --version 
   
   

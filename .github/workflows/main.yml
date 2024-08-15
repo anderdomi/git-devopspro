@@ -24,7 +24,6 @@ jobs:
         run:
           variavel = "Hello devops2"
           print(variavel)
-        shell: python        
-          
+        shell: python
   
   

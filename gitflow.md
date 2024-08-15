@@ -147,3 +147,24 @@ Desenvolvimento
 XPTO
 hotfix-xpto
 
+#### Automacao CI/CD
+
+# Automação, Pipelines e DevOps
+Automaçao é uma das palavras chaves no mundo devops.
+Pipeline controla o fluxo de processos dentro de uma execução.
+
+# Pipeline de CI
+Continuous Integration. Integrar novos códigos novos em um projeto ja existente. Resultam em uma nova versão. Uma nova release.
+Para integrar o novo código, deve se garantir a qualidade dele.
+
+![imagem](/imagens/CI.png)
+
+# Pipeline de CD
+Continuous Deploiment (entrega continua). Vem depois do CI.Garante que esse novo pacote seja entregue pro cliente. Procure entregar incialmente em um ambiente de homologação.
+Para promover para de um ambiente dev para prod, tem uma etapa
+
+![imagem](/imagens/CD.png)
+
+# CI-CD diferencás
+
+![imagem](imagens/CI-CD.png)

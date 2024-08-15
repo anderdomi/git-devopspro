@@ -25,7 +25,7 @@ jobs:
           variavel = "Hello devops2"
           print(variavel)
         shell: python
-  jbob-2:
+  worflow-nodejs:
     name: "Instalando ambiente NodeJS"
     runs-on: ubuntu-latest
     steps:

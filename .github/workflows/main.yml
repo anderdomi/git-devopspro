@@ -21,7 +21,7 @@ jobs:
           echo "Parabéns"
 #Declarando e executando o script
       - name: "Script Python"
-        run:
+        run: |
           variavel = "Hello devops2"
           print(variavel)
         shell: python

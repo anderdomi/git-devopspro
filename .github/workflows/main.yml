@@ -26,11 +26,11 @@ job:
           print(variavel)
         shell: python
 
-  jbob-2:
-    name: "Instalando ambiente NodeJS"
-    runs-on: ubuntu-latest
-    steps:
-      - name: "Verificando versao do Node JS atual"
-        run: node --version 
+jbob-2:
+  name: "Instalando ambiente NodeJS"
+  runs-on: ubuntu-latest
+  steps:
+    - name: "Verificando versao do Node JS atual"
+      run: node --version 
   
   

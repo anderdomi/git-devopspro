@@ -25,7 +25,6 @@ job:
           variavel = "Hello devops2"
           print(variavel)
         shell: python
-
 jbob-2:
   name: "Instalando ambiente NodeJS"
   runs-on: ubuntu-latest

@@ -1,0 +1,23 @@
+# Defina o nome da pipeline
+name: pipeline devops2
+# Defina a trigger. Qual evento vai ser disparado pra começar o workflow
+# Declarando o push:
+on:
+  push:
+    branches: ["main"] #delcare todas que precisar
+  workflow_dispatch: #permite que execute manualmente.
+# Declare os jobs.
+jobs:
+  name: "Workflow Devops2"
+  runs-on: ubuntu-latest #declarando runner
+# Declare os passos da execuçao, os steps
+  steps: #onde entram as actions
+    - name: "Primeira açao"
+      run: echo "Hello Devops2"
+    - name: "Segunda açao"
+      run: |
+        echo "Workflow 1"
+        echo "Parabéns"
+
+  
+  
